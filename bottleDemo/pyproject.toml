@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "bottledemo"
+version = "0.1.0"
+description = ""
+authors = ["hajoho <hajo.hoffmann@stadt.erlangen.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+bottle = "^0.13.2"
+gunicorn = "^23.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+bottle = "^0.13.2"
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
