@@ -9,4 +9,4 @@ proof of concept of a "bottle"-based web server
 1. Add bottle, pytest and gunicorn (for prod)
     1. ```poetry add bottle pytest WebTest --dev```
     1. ```poetry add bottle gunicorn```
-1. Create "bottledemo/app.py" and "test/test_app.py"
+1. Create "bottledemo/app1.py" and "test/test_app1.py"
