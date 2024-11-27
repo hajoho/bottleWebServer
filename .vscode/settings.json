@@ -1,9 +1,7 @@
 {
     "python.defaultInterpreterPath": "${workspaceFolder}/.venv",
     "python.poetry.activate": true,
-    "python.testing.pytestArgs": [
-        "bottleDemo"
-    ],
+    "python.testing.pytestArgs": [],
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true
 }
